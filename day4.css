@@ -1,0 +1,142 @@
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+content {
+    min-height: calc(100vh - 100px); /* Adjust 100px to footer's height */
+    padding: 20px;
+}
+
+/* Footer styling */
+.site-footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    /* Position the footer at the bottom relative to the content wrapper */
+    /* Alternative: use 'position: fixed; bottom: 0;' for a footer always visible on screen */
+    height: 60px; /* fixed height for calculation above */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-bottom:10px ;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+
+
+.fa-instagram {
+  background: #d82d8bc1;
+  color: white;
+}
